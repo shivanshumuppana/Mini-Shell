@@ -1,4 +1,4 @@
-#Mini Shell
+# Mini Shell
 A small unix-like shell written in C, built from scratch.
 
 The goal of this project is to understand the unix process model and the system calls that make a shell work.
@@ -16,6 +16,7 @@ The shell can currently:
 - Report errors when `chdir()` or `execvp()` fails
 
 ## Output
+<img width="1116" height="530" alt="image" src="https://github.com/user-attachments/assets/31117a30-cbb0-4d24-b96d-7bab754f7e98" />
 
 ## How it works
 The shell uses `fork()` to create a child process.
